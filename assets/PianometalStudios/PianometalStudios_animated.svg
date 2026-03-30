@@ -1,0 +1,131 @@
+<svg width="100%" viewBox="0 0 680 720" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .bg { fill: #0a0a0a; }
+      .bar-solid { fill: #ffffff; }
+      .bar-outline { fill: none; stroke: #ffffff; stroke-width: 2.5; }
+      .wordmark { fill: #ffffff; font-family: 'Arial', 'Helvetica Neue', sans-serif; letter-spacing: 0.06em; }
+      .studios { fill: #ffffff; font-family: 'Arial', 'Helvetica Neue', sans-serif; letter-spacing: 0.42em; }
+      .tm { fill: #ffffff; font-family: 'Arial', sans-serif; font-size: 13px; }
+
+      @keyframes dropLeft {
+        0%   { transform: translateY(-340px); opacity: 0; }
+        60%  { transform: translateY(12px);   opacity: 1; }
+        80%  { transform: translateY(-5px); }
+        100% { transform: translateY(0); opacity: 1; }
+      }
+      @keyframes dropRight {
+        0%   { transform: translateY(-340px); opacity: 0; }
+        60%  { transform: translateY(12px);   opacity: 1; }
+        80%  { transform: translateY(-5px); }
+        100% { transform: translateY(0); opacity: 1; }
+      }
+      @keyframes dropInner1 {
+        0%   { transform: translateY(-200px); opacity: 0; }
+        65%  { transform: translateY(8px);    opacity: 1; }
+        82%  { transform: translateY(-3px); }
+        100% { transform: translateY(0); opacity: 1; }
+      }
+      @keyframes dropInner2 {
+        0%   { transform: translateY(-200px); opacity: 0; }
+        65%  { transform: translateY(8px);    opacity: 1; }
+        82%  { transform: translateY(-3px); }
+        100% { transform: translateY(0); opacity: 1; }
+      }
+
+      @keyframes pulse {
+        0%, 100% { opacity: 1; }
+        50%       { opacity: 0.82; }
+      }
+
+      @keyframes fadeUp {
+        0%   { transform: translateY(20px); opacity: 0; }
+        100% { transform: translateY(0);    opacity: 1; }
+      }
+
+      @keyframes sweep {
+        0%   { stroke-dashoffset: 600; opacity: 0; }
+        30%  { opacity: 1; }
+        100% { stroke-dashoffset: 0; opacity: 1; }
+      }
+
+      @keyframes shimmer {
+        0%   { opacity: 1; }
+        40%  { opacity: 0.7; }
+        60%  { opacity: 1; }
+        100% { opacity: 1; }
+      }
+
+      .g-bar-left  { animation: dropLeft   0.85s cubic-bezier(0.22,1,0.36,1) 0.1s both; }
+      .g-bar-right { animation: dropRight  0.85s cubic-bezier(0.22,1,0.36,1) 0.25s both; }
+      .g-bar-i1    { animation: dropInner1 0.75s cubic-bezier(0.22,1,0.36,1) 0.5s both; }
+      .g-bar-i2    { animation: dropInner2 0.75s cubic-bezier(0.22,1,0.36,1) 0.62s both; }
+
+      .shimmer-left  { animation: shimmer 3.2s ease-in-out 1.8s infinite; }
+      .shimmer-right { animation: shimmer 3.2s ease-in-out 2.2s infinite; }
+
+      .wordmark-group { animation: fadeUp 0.7s ease-out 1.1s both; }
+      .studios-group  { animation: fadeUp 0.7s ease-out 1.3s both; }
+
+      .accent-line {
+        stroke-dasharray: 600;
+        stroke-dashoffset: 600;
+        animation: sweep 0.9s ease-out 1.55s forwards;
+      }
+    </style>
+
+    <clipPath id="logo-clip">
+      <rect x="80" y="50" width="520" height="560"/>
+    </clipPath>
+  </defs>
+
+  <rect x="60" y="40" width="560" height="640" fill="#0a0a0a" rx="12"/>
+
+  <g class="g-bar-left shimmer-left">
+    <rect class="bar-solid" x="138" y="68" width="110" height="430" rx="0"/>
+  </g>
+
+  <g class="g-bar-right shimmer-right">
+    <rect class="bar-solid" x="432" y="68" width="110" height="430" rx="0"/>
+  </g>
+
+  <g class="g-bar-i1">
+    <rect class="bar-outline" x="258" y="200" width="72" height="298" rx="0"/>
+  </g>
+
+  <g class="g-bar-i2">
+    <rect class="bar-outline" x="350" y="200" width="72" height="298" rx="0"/>
+  </g>
+
+  <line class="accent-line"
+    x1="100" y1="570" x2="580" y2="570"
+    stroke="#c0392b" stroke-width="2.5" stroke-linecap="round"/>
+
+  <g class="wordmark-group">
+    <text class="wordmark"
+      x="340" y="622"
+      text-anchor="middle"
+      font-size="72"
+      font-weight="700"
+      font-family="'Arial Black', 'Arial', 'Helvetica Neue', sans-serif"
+      fill="#ffffff"
+      letter-spacing="-0.5">PIANOMETAL</text>
+  </g>
+
+  <g class="studios-group">
+    <text class="studios"
+      x="340" y="662"
+      text-anchor="middle"
+      font-size="21"
+      font-weight="400"
+      font-family="'Arial', 'Helvetica Neue', sans-serif"
+      fill="#ffffff"
+      letter-spacing="10">STUDIOS</text>
+    <text class="tm"
+      x="541" y="643"
+      text-anchor="start"
+      font-size="12"
+      fill="#ffffff"
+      font-family="'Arial', sans-serif">™</text>
+  </g>
+</svg>

@@ -39,6 +39,14 @@
   <a href="https://www.facebook.com/pianometalstudios">
     <img src="https://img.shields.io/badge/Facebook-pianometalstudios-1877F2?style=for-the-badge&logo=facebook&logoColor=white"/>
   </a>
+  <br>
+  <a href="https://www.threads.net/@pianometalstudios">
+    <img src="https://img.shields.io/badge/Threads-@pianometalstudios-000000?style=for-the-badge&logo=threads&logoColor=white"/>
+  </a>
+  <br>
+  <a href="https://twitch.tv/pianometalstudios">
+    <img src="https://img.shields.io/badge/Twitch-pianometalstudios-9146FF?style=for-the-badge&logo=twitch&logoColor=white"/>
+  </a>
 </p>
 
 ---
@@ -63,33 +71,6 @@
       <sub>
         📱 iPhone · iPad - 🖥️ Mac - 👓 Vision Pro<br/>
         ⭐ 4.8 &nbsp;·&nbsp; Free &nbsp;·&nbsp; Ad-free
-      </sub>
-    </td>
-  </tr>
-</table>
-
----
-
-### 🤖 Google Play
-
-<p align="center">
-  <a href="https://play.google.com/store/apps/dev?id=6755490553987370381">
-    <img src="https://img.shields.io/badge/Pianometal%20Studios-Developer%20Profile-414141?style=for-the-badge&logo=google-play&logoColor=white" alt="Google Play Developer Profile"/>
-  </a>
-</p>
-
-<table align="center">
-  <tr>
-    <td align="center" width="480">
-      <a href="https://play.google.com/store/apps/details?id=com.pianometalstudios.pranksoundboard">
-        <img src="https://img.shields.io/badge/InstaGag%3A%20Ultimate%20Prank%20Tool-Download-414141?style=for-the-badge&logo=google-play&logoColor=white" alt="Get it on Google Play"/>
-      </a>
-      <br/><br/>
-      <strong>😹 InstaGag: Ultimate Prank Tool</strong><br/>
-      <sub>Turn your phone into the perfect trolling device</sub><br/><br/>
-      <sub>
-        📱 Android<br/>
-        ⭐ 5.0 &nbsp;·&nbsp; Free &nbsp;·&nbsp; Ad-free
       </sub>
     </td>
   </tr>
